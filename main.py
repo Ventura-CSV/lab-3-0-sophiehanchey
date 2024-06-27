@@ -10,7 +10,7 @@ def main():
     else:
         result = 1
 
-    if result:
+    if(result == 0):
         print(f'The value {number} is an odd number')
     else:
         print(f'The value {number} is an even number')
