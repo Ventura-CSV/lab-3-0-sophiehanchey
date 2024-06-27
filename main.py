@@ -3,14 +3,9 @@ def main():
     # Complete your code here
     ##################################################
     number = int(input('Enter your input: '))
+    result = number % 2
 
-    
-    if(number % 2):
-        result = 0
-    else:
-        result = 1
-
-    if(result == 0):
+    if result:
         print(f'The value {number} is an odd number')
     else:
         print(f'The value {number} is an even number')
