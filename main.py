@@ -1,12 +1,14 @@
 def main():
     ##################################################
-    # Comlete your code here
+    # Complete your code here
     ##################################################
     number = int(input('Enter your input: '))
 
-    """
-    Make your code here
-    """
+    
+    if(number % 2):
+        result = 0
+    else:
+        result = 1
 
     if result:
         print(f'The value {number} is an odd number')
